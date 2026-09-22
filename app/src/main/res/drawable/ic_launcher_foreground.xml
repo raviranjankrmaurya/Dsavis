@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Connective edges between algorithm nodes -->
+    <!-- Root (54, 30) to Left (36, 54) and Right (72, 54) -->
+    <path
+        android:pathData="M54,30 L36,54"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="54" android:startY="30"
+                android:endX="36" android:endY="54"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#818CF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:pathData="M54,30 L72,54"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="54" android:startY="30"
+                android:endX="72" android:endY="54"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#C084FC" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Left (36, 54) to Child 1 (28, 76) and Child 2 (46, 76) -->
+    <path
+        android:pathData="M36,54 L28,76"
+        android:strokeColor="#818CF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <path
+        android:pathData="M36,54 L46,76"
+        android:strokeColor="#818CF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Right (72, 54) to Child 3 (62, 76) and Child 4 (80, 76) -->
+    <path
+        android:pathData="M72,54 L62,76"
+        android:strokeColor="#C084FC"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <path
+        android:pathData="M72,54 L80,76"
+        android:strokeColor="#C084FC"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Root Node (54, 30) - Cyan Pulse -->
+    <!-- Outer glow circle -->
+    <path
+        android:pathData="M54,30 m-9,0 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0"
+        android:fillColor="#3338BDF8" />
+    <!-- Core node -->
+    <path
+        android:pathData="M54,30 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"
+        android:fillColor="#38BDF8" />
+    <path
+        android:pathData="M54,30 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Level 1 Left Node (36, 54) -->
+    <path
+        android:pathData="M36,54 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0"
+        android:fillColor="#33818CF8" />
+    <path
+        android:pathData="M36,54 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+        android:fillColor="#6366F1" />
+    <path
+        android:pathData="M36,54 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Level 1 Right Node (72, 54) -->
+    <path
+        android:pathData="M72,54 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0"
+        android:fillColor="#33C084FC" />
+    <path
+        android:pathData="M72,54 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+        android:fillColor="#A855F7" />
+    <path
+        android:pathData="M72,54 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Leaf Nodes (Level 2) -->
+    <path
+        android:pathData="M28,76 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0"
+        android:fillColor="#06B6D4" />
+    <path
+        android:pathData="M46,76 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0"
+        android:fillColor="#10B981" />
+    <path
+        android:pathData="M62,76 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0"
+        android:fillColor="#EC4899" />
+    <path
+        android:pathData="M80,76 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0"
+        android:fillColor="#F59E0B" />
+
+    <!-- Flow Loop Curve Accent at bottom -->
+    <path
+        android:pathData="M28,84 Q54,92 80,84"
+        android:strokeColor="#2038BDF8"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+</vector>

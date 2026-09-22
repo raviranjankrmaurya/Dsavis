@@ -1,0 +1,6 @@
+{
+  "name": "DSAFlow",
+  "description": "Interactive Data Structures & Algorithms learning platform with animated visualizers, coding practice, and AI mentor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
